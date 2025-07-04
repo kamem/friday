@@ -57,3 +57,93 @@ footer {
 .copyright {
   text-align: center;
 }
+
+.box {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  border: 10px solid blue;
+  background-color: red;
+  color: #fff;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+[class^="position-box-"] {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.position-box-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.position-box-absolute {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: pink;
+}
+
+.position-box-relative {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: purple;
+}
+
+.relative {
+  position: relative;
+  background-color: yellow;
+  height: 300px;
+}
+
+.menus {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.menu-item {
+  display: block;
+}
+
+.menu-item a {
+  display: block;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-item a:hover {
+  opacity: 0.8;
+}
+
+.menu-end {
+  justify-content: flex-end;
+}
+
+.menu-center {
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  background-color: #39c;
+  width: 100px;
+  height: 100px;
+}
